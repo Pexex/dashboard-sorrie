@@ -1,5 +1,25 @@
 {
+  "name": "sorrie-business-inteligence",
+  "version": "1.0.0",
+  "description": "A Sorrie Saúde Dashboard",
+  "main": "src/js/script.js",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "Roberto Peixinho",
+    "email": "rhpeixinho@gmail.com",
+    "url": "https://github.com/Pexex"
+  },
+  "repository": "github:Pexex/dashboard-sorrie",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  },
   "dependencies": {
-    "chart.js": "^4.4.1"
+    "chart.js": "^4.4.1",
+    "chartjs-chart-funnel": "^4.1.7"
   }
 }
